@@ -118,6 +118,11 @@ ModelImporter:
     100224: Plane_009
     100226: Plane_010
     100228: Text
+    100230: Plane_000
+    100232: Plane_011
+    100234: Plane_012
+    100236: Plane_013
+    100238: Plane_014
     400000: Cube
     400002: //RootNode
     400004: Plane
@@ -233,6 +238,11 @@ ModelImporter:
     400224: Plane_009
     400226: Plane_010
     400228: Text
+    400230: Plane_000
+    400232: Plane_011
+    400234: Plane_012
+    400236: Plane_013
+    400238: Plane_014
     2100000: Wall
     2100002: Dark_Wall
     2100004: Ceiling
@@ -366,6 +376,11 @@ ModelImporter:
     2300222: Plane_009
     2300224: Plane_010
     2300226: Text
+    2300228: Plane_000
+    2300230: Plane_011
+    2300232: Plane_012
+    2300234: Plane_013
+    2300236: Plane_014
     3300000: Cube
     3300002: Plane
     3300004: Plane_001
@@ -480,6 +495,11 @@ ModelImporter:
     3300222: Plane_009
     3300224: Plane_010
     3300226: Text
+    3300228: Plane_000
+    3300230: Plane_011
+    3300232: Plane_012
+    3300234: Plane_013
+    3300236: Plane_014
     4300000: Plane_002
     4300002: Plane_001
     4300004: Plane
@@ -594,6 +614,11 @@ ModelImporter:
     4300222: Cylinder_025
     4300224: Cylinder_024
     4300226: Cylinder_027
+    4300228: Plane_012
+    4300230: Plane_011
+    4300232: Plane_000
+    4300234: Plane_014
+    4300236: Plane_013
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -608,6 +633,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Ceiling
     second: {fileID: 2100000, guid: f55e7c2d66f668c478238c2e1ef40e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkMetal_001
+    second: {fileID: 2100000, guid: d759a6bd94761f142b03e232a86d8b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Carpet_
+    second: {fileID: 2100000, guid: 61a479b8d8aaaba428dec0fc178fc3ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Outline
+    second: {fileID: 2100000, guid: f9c22e4e8ff94874c87d567e47dd1380, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -631,13 +671,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Lighting_Box_Door
+    second: {fileID: 2100000, guid: e50fe26d500b64c4495fb441523cd3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: d759a6bd94761f142b03e232a86d8b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_001
+    second: {fileID: 2100000, guid: d759a6bd94761f142b03e232a86d8b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_Glass
+    second: {fileID: 2100000, guid: aa8e4d35408eee8439c359f0cf77195b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_Wood
+    second: {fileID: 2100000, guid: dffaae23a6dbbec4890370f5fa69610a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wall
     second: {fileID: 2100000, guid: 779b322354728e54dad6e6c6a201c410, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood
-    second: {fileID: 2100000, guid: ce2af350acfe0ef4196027573b2e908d, type: 2}
+    second: {fileID: 2100000, guid: d7deaba2db574a0408fda458d04559f2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
